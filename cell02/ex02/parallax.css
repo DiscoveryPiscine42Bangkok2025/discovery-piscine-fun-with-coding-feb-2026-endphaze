@@ -1,0 +1,33 @@
+/* บังคับให้หน้าเว็บไม่มีขอบขาว */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* สร้าง Class สำหรับกล่องเก็บรูปภาพ Parallax */
+.parallax {
+    /* ใส่รูปภาพพื้นหลังของคุณ */
+    background-image: url("https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg");
+
+    /* ตั้งค่าความสูงให้เต็มหน้าจอ (หรือตามต้องการ) */
+    height: 100%;
+
+    /* หัวใจของ Parallax: ทำให้รูปถูกตรึงไว้กับที่ */
+    background-attachment: fixed;
+
+    /* จัดรูปให้อยู่ตรงกลางและคลุมพื้นที่ */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ส่วนของเนื้อหาปกติที่คั่นระหว่างรูป */
+.content {
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+}

@@ -1,0 +1,39 @@
+/* จัดการตำแหน่งการ์ดให้อยู่กลางหน้าจอ */
+body {
+    text-align: center;
+    background-color: #eeeeee;
+    padding-top: 50px;
+}
+
+/* ตกแต่งตัวการ์ด */
+.card {
+    background-color: white;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc; /* ขอบบางๆ ให้เห็นรูปทรงการ์ด */
+}
+
+/* ทำให้ตารางล่องหน (Invisible Table) */
+.profile-table {
+    width: 100%;
+    border: 0; /* ไม่มีเส้นขอบ */
+    border-collapse: collapse;
+}
+
+.profile-table td {
+    padding: 10px;
+}
+
+/* ปรับแต่งรูปโปรไฟล์ */
+.avatar {
+    width: 100px;
+    border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+}
+
+/* ปรับแต่งปุ่ม */
+button {
+    margin-top: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
