@@ -1,0 +1,39 @@
+/* ตกแต่งแถบเมนูหลัก */
+.navbar {
+    background-color: #333;
+}
+
+/* ตั้งค่าปุ่มกด */
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* กล่องเก็บรายการเมนู (เริ่มมาให้ซ่อนไว้ก่อน) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+}
+
+/* รายการเมนูย่อยข้างใน */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* เมื่อเอาเมาส์ชี้ที่เมนู (hover) ให้แสดงเนื้อหาข้างใน (display: block) */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* เปลี่ยนสีพื้นหลังรายการย่อยเมื่อเอาเมาส์ไปชี้ */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}

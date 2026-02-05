@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start; /* วางปุ่มไว้ด้านบนตามตัวอย่าง */
+    padding: 20px;
+    transition: background-color 0.3s ease; /* เพิ่มความนุ่มนวลเวลาเปลี่ยนสี */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
