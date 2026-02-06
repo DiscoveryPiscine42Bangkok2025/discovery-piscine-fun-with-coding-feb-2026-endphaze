@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#balloon {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    /* เพิ่ม transition เพื่อให้ตอน jQuery เปลี่ยนค่า CSS มันดู smooth */
+    transition:
+        width 0.2s,
+        height 0.2s,
+        background-color 0.2s;
+}

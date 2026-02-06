@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    /* ทำให้สีพื้นหลังค่อยๆ เปลี่ยนในเวลา 0.3 วินาที */
+    transition: background-color 0.3s ease;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}

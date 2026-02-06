@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.calc-container {
+    padding: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input[type="text"] {
+    width: 60px;
+    padding: 5px;
+}
+
+select,
+input[type="submit"] {
+    padding: 5px;
+    cursor: pointer;
+}
